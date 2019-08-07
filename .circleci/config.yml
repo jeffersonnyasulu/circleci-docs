@@ -114,7 +114,7 @@ jobs:
       - run:
           name: Build PDFs for Server
           command: |
-            asciidoctor-pdf -v
+            bundle exec asciidoctor-pdf -v
             ./scripts/build_pdfs.sh
       - run:
           name: Test with HTMLproofer
