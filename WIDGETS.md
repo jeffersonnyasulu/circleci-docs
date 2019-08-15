@@ -14,17 +14,17 @@ The example from the screenshot shows how you can use tabbed code blocks to disp
 
 Here's how this would look in Jekyll's Markdown:
 
-```
+````
 {:.codetab.1.v2_1}
-\```bash
+```bash
 echo "This is brand new CircleCI v2.1 config!"
-\```
+```
 
 {:.codetab.1.v2_0}
-\```bash
+```bash
 echo "This is 2.0 config."
-\```
 ```
+````
 
 After the string `codetab` you'll see the integer `1`.
 This is how tabbed code blocks are group.
